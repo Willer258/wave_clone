@@ -49,7 +49,7 @@ class _CameraWidgetState extends State<CameraWidget> {
         body: Stack(children: [
           Center(
             child: Transform.scale(
-                scale: 1.3,
+                scale: 1.4,
                 child: CameraPreview(
                   cameraController,
                 )),
